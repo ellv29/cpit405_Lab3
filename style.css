@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+#profile-header nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#profile-header nav a {
+    color: #a8325b;
+    background-color: #fff8fa;
+    padding: 8px 16px;
+    border: 1px solid #e7a4ba;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+#profile-header nav a:hover {
+    background-color: #c94f79;
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #fff5f8;
+    color: #5b3a48;
+    line-height: 1.6;
+}
+
+#profile-header {
+    max-width: 960px;
+    margin: 25px auto;
+    padding: 28px 20px;
+    text-align: center;
+    background-color: #f8d8e3;
+    border: 1px solid #efb8cb;
+    border-bottom: 5px solid #ce6a8b;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(174, 70, 109, 0.12);
+}
+
+#profile-header h1 {
+    margin: 0;
+    color: #a8325b;
+}
+
+.cv-container {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+.cv-section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #f0ccd8;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(174, 70, 109, 0.1);
+}
+
+.cv-section h2 {
+    margin-top: 0;
+    color: #b54770;
+    font-size: 24px;
+    border-left: 5px solid #dc7898;
+    padding-left: 12px;
+}
+
+.education-item {
+    background-color: #fff8fa;
+    padding: 14px 18px;
+    margin: 12px 0;
+    border: 1px solid #f3d6df;
+    border-radius: 12px;
+}
+
+.education-item h3 {
+    margin-bottom: 5px;
+    color: #684958;
+}
